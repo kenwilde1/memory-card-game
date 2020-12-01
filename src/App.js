@@ -1,18 +1,14 @@
 import "./App.css";
 import Card from "./components/Card";
 import cards from "./cardData";
+import Game from "./components/Game";
 
 const App = () => {
-  const cardComponents = cards.map((card) => (
-    <Card
-      name={card.title}
-      description={card.description}
-      image={card.image}
-      bgcolor={card.bgColor}
-    />
-  ));
-
-  return <div className="App">{cardComponents}</div>;
+  return (
+    <div className="App">
+      <Game />
+    </div>
+  );
 };
 
 export default App;
