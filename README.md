@@ -4,4 +4,4 @@ User chooses a card that they haven't chosen previously, the game will then rand
 
 Created using React, JS, HTML and CSS.
 
-See Live ['https://kenwilde1.github.io/memory-card-game/'](Mandalorian Memory Mangle)
+See Live: [https://kenwilde1.github.io/memory-card-game/](Mandalorian Memory Mangle)
